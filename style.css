@@ -37,17 +37,10 @@ body {
   margin: 0 auto;
   z-index: -4;
   margin-left: 0px;
-  margin-right: 10%;
-  float: right;
+  margin-right: 5%;
 }
 
-/* line 38, /home/nader/systemshack/src/style.scss */
-#header #blocker {
-  margin: 0 auto;
-  display: block;
-}
-
-/* line 45, /home/nader/systemshack/src/style.scss */
+/* line 41, /home/nader/systemshack/src/style.scss */
 #sidenav {
   position: fixed;
   top: 0px;
@@ -57,44 +50,88 @@ body {
   width: 50px;
 }
 
-/* line 52, /home/nader/systemshack/src/style.scss */
+/* line 48, /home/nader/systemshack/src/style.scss */
 #sidenav div {
   color: black;
 }
 
-/* line 58, /home/nader/systemshack/src/style.scss */
+/* line 54, /home/nader/systemshack/src/style.scss */
 .el-carousel__item h3 {
-  color: #475669;
-  font-size: 14px;
-  opacity: 0.75;
-  line-height: 150px;
   margin: 0;
 }
 
-/* line 66, /home/nader/systemshack/src/style.scss */
+/* line 59, /home/nader/systemshack/src/style.scss */
 .el-carousel__item:nth-child(2n) {
   background-color: #99a9bf;
 }
 
-/* line 70, /home/nader/systemshack/src/style.scss */
+/* line 63, /home/nader/systemshack/src/style.scss */
 .el-carousel__item:nth-child(2n+1) {
   background-color: #d3dce6;
 }
 
-/* line 73, /home/nader/systemshack/src/style.scss */
+/* line 66, /home/nader/systemshack/src/style.scss */
 #caros {
   background: #fff;
   float: left;
   display: block;
   height: 400px;
   width: 100%;
+  margin-top: 10px;
 }
 
-/* line 80, /home/nader/systemshack/src/style.scss */
+/* line 74, /home/nader/systemshack/src/style.scss */
 .caro {
   background: #fff;
   color: #fff;
-  text-align: center;
+  font-size: 40px;
+  text-align: left;
+}
+
+/* line 79, /home/nader/systemshack/src/style.scss */
+.caro h1, .caro h3, .caro h2, .caro h4 {
+  margin-left: 5%;
+  max-width: 400px;
+}
+
+/* line 85, /home/nader/systemshack/src/style.scss */
+#car1 {
+  background: url("./src/imgs/car1bg.jpg.jpg") no-repeat fixed;
+}
+
+/* line 87, /home/nader/systemshack/src/style.scss */
+#car1 h1, #car1 h2, #car1 h3, #car1 h4 {
+  max-width: 600px;
+}
+
+/* line 91, /home/nader/systemshack/src/style.scss */
+#car2 {
+  background: url("./src/imgs/car2.jpg") fixed;
+}
+
+/* line 94, /home/nader/systemshack/src/style.scss */
+#car3 {
+  background: url("./src/imgs/carBG.jpg") fixed;
+}
+
+/* line 97, /home/nader/systemshack/src/style.scss */
+#car4 {
+  color: #000;
+  background: #fff;
+  text-align: left;
+}
+
+/* line 101, /home/nader/systemshack/src/style.scss */
+#car4 h1, #car4 h3, #car4 h2, #car4 h4 {
+  max-width: 800px;
+}
+
+/* line 106, /home/nader/systemshack/src/style.scss */
+#car4 img {
+  float: right;
+  margin-right: 5%;
+  position: relative;
+  top: -40%;
 }
 
 /*# sourceMappingURL=../style.map */

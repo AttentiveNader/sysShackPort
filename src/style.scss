@@ -32,14 +32,10 @@ background: #fff;
   
      z-index: -4;
      margin-left: 0px;
-     margin-right: 10%;
-     float:right;
-  }	
-  #blocker{
-    margin: 0 auto;
-    display:block;
+     margin-right: 5%;
     
-  }
+  }	
+
   display:block;
 }
 #sidenav{
@@ -56,10 +52,7 @@ background: #fff;
 }
 
     .el-carousel__item h3 {
-    color: #475669;
-    font-size: 14px;
-    opacity: 0.75;
-    line-height: 150px;
+  
     margin: 0;
   }
 
@@ -76,12 +69,47 @@ background: #fff;
     display:block;
     height: 400px;
     width:100%;
+    margin-top: 10px;
   }
   .caro{
     background: #fff;
-    color: #fff;
-    text-align: center;
+    color: #fff; 
+        font-size:40px; 
+         text-align: left;
+    h1,h3,h2,h4{
+      margin-left: 5%;
+      max-width:400px;
+       
+    }
+  }
+  #car1{
+    background:url('./src/imgs/car1bg.jpg.jpg')  no-repeat fixed;
+    h1,h2,h3,h4{
+      max-width:600px;
+    }
+  }
+  #car2{
+    background:url('./src/imgs/car2.jpg') fixed ;
+  }
+  #car3{
+    background: url('./src/imgs/carBG.jpg') fixed;
+  }
+  #car4{
+    color:#000;
+    background: #fff;
+    text-align:left;
+     h1,h3,h2,h4{
+     
+      max-width:800px;
+       
+    }
+    img{
+      float:right;
+      margin-right: 5%;
+      position :relative;
+      top:-40%;
     
+    }
   }
 
 
