@@ -5,18 +5,18 @@
         <meta name="description" content="System Shack a software development company "/>
         <meta name="keywords" content="software development, system shack,software company">
         <title>System Shack</title>
+        <link rel="stylesheet" href="./style.css"> 
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-     
-           <script src="https://unpkg.com/vue/dist/vue.js"></script>
-
-  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
-    </head>
+        <link rel="stylesheet" href="./src/element.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+           </head>
     <body>
      <div id="app">
          <div id="header">
-         <img src="./src/logo2.png"/>
-         
+             <el-row type="flex" class="row-bg" justify="center">
+         <img class="img img-responsive" src="./src/logo2.png"/>
+             </el-row>
          </div>
   <div id="sidenav">
     
@@ -35,16 +35,25 @@
           <h2>Our company has branches in India and Egypt</h2>
       </el-carousel-item>
       <el-carousel-item id="car4" class="caro">
-          <h2>Developing our first App  </h2>
+          <h2> Our first App   </h2>
           <h2>Semele the fortune teller</h2>
           <img src="./src/imgs/phone.png" />
       </el-carousel-item>
     </el-carousel>
   </div>
-
-
+  <form  id='contactform' action="https://formspree.io/harshed2004@gmail.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+  
 </div>
 <div style="height: 3000px;"></div>
     </body>
+               <script src="https://unpkg.com/vue/dist/vue.js"></script>
+               <script src="https://code.jquery.com/jquery-3.1.1.slim.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
     <script src="./script.js"></script>
 </html>
