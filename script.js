@@ -1,7 +1,11 @@
 new Vue({
     el:'#app',
     data:{
-      mas:'hello world are you okay?'
+      mas:'hello world are you okay?',
+      showClose: true,
+      form:{
+        
+      }
     },
     methods:{
 
@@ -9,7 +13,11 @@ new Vue({
     mounted:function(){
       let self = this
       let el = document.querySelector('#header img')
-      console.log(el.clientHeight)
+      this.$message({
+          showClose: true,
+          message: "Warning, please Don't use Facebook browser ",
+          type: 'warning'
+        });
 
     }
 })
