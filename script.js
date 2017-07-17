@@ -3,9 +3,19 @@ new Vue({
     data:{
       mas:'hello world are you okay?',
       showClose: true,
-      form:{
-        
-      }
+      form:{},
+      socialArray:[
+        {
+          link:'https://www.facebook.com/systemshackp/',
+          src:'./src/imgs/facebook.ico'
+        }, {
+          link:'https://systemshackblog.wordpress.com/',
+          src:'./src/imgs/wordpress1600.png'
+        }, {
+          link:'https://www.facebook.com/systemshackp/',
+          src:'./src/imgs/linkedin.ico'
+        },
+      ]
     },
     methods:{
 

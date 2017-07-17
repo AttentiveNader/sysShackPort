@@ -50,26 +50,21 @@ body {
 }
 
 /* line 48, /home/nader/systemshack/src/style.scss */
+#sidenav img {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+/* line 52, /home/nader/systemshack/src/style.scss */
 #sidenav div {
-  color: black;
+  display: block;
+  max-width: 40px;
+  margin-top: 10px;
+  margin-left: 5px;
+  color: #fff;
 }
 
-/* line 54, /home/nader/systemshack/src/style.scss */
-.el-carousel__item h3 {
-  margin: 0;
-}
-
-/* line 59, /home/nader/systemshack/src/style.scss */
-.el-carousel__item:nth-child(2n) {
-  background-color: #99a9bf;
-}
-
-/* line 63, /home/nader/systemshack/src/style.scss */
-.el-carousel__item:nth-child(2n+1) {
-  background-color: #d3dce6;
-}
-
-/* line 66, /home/nader/systemshack/src/style.scss */
+/* line 60, /home/nader/systemshack/src/style.scss */
 #caros {
   background: #fff;
   float: left;
@@ -79,7 +74,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 74, /home/nader/systemshack/src/style.scss */
+/* line 68, /home/nader/systemshack/src/style.scss */
 .caro {
   background: #fff;
   color: #fff;
@@ -87,34 +82,34 @@ body {
   text-align: left;
 }
 
-/* line 79, /home/nader/systemshack/src/style.scss */
+/* line 73, /home/nader/systemshack/src/style.scss */
 .caro h1, .caro h3, .caro h2, .caro h4 {
   margin-left: 5%;
   max-width: 400px;
 }
 
-/* line 85, /home/nader/systemshack/src/style.scss */
+/* line 79, /home/nader/systemshack/src/style.scss */
 #car1 {
   background: url("./src/imgs/car1bg.jpg.jpg") no-repeat fixed;
   text-align: center;
 }
 
-/* line 88, /home/nader/systemshack/src/style.scss */
+/* line 82, /home/nader/systemshack/src/style.scss */
 #car1 h1, #car1 h2, #car1 h3, #car1 h4 {
   max-width: 600px;
 }
 
-/* line 92, /home/nader/systemshack/src/style.scss */
+/* line 86, /home/nader/systemshack/src/style.scss */
 #car2 {
   background: url("./src/imgs/car2.jpg") fixed;
 }
 
-/* line 95, /home/nader/systemshack/src/style.scss */
+/* line 89, /home/nader/systemshack/src/style.scss */
 #car3 {
   background: url("./src/imgs/carBG.jpg") fixed;
 }
 
-/* line 98, /home/nader/systemshack/src/style.scss */
+/* line 92, /home/nader/systemshack/src/style.scss */
 #car4 {
   color: #000;
   background: #fff;
@@ -122,12 +117,12 @@ body {
   height: 400px;
 }
 
-/* line 103, /home/nader/systemshack/src/style.scss */
+/* line 97, /home/nader/systemshack/src/style.scss */
 #car4 h1, #car4 h3, #car4 h2, #car4 h4 {
   max-width: 800px;
 }
 
-/* line 108, /home/nader/systemshack/src/style.scss */
+/* line 102, /home/nader/systemshack/src/style.scss */
 #car4 img {
   float: right;
   margin-right: 5%;
@@ -135,7 +130,7 @@ body {
   z-index: -4;
 }
 
-/* line 116, /home/nader/systemshack/src/style.scss */
+/* line 110, /home/nader/systemshack/src/style.scss */
 #contactform {
   margin-left: 20%;
   margin-top: 20px;
@@ -144,46 +139,46 @@ body {
   transform: translate(0, 30px);
 }
 
-/* line 122, /home/nader/systemshack/src/style.scss */
+/* line 116, /home/nader/systemshack/src/style.scss */
 #contactform h1, #contactform h2, #contactform h3, #contactform h4 {
   margin-top: 40px;
 }
 
-/* line 125, /home/nader/systemshack/src/style.scss */
+/* line 119, /home/nader/systemshack/src/style.scss */
 #contactform input, #contactform textarea {
   padding: 5px;
 }
 
-/* line 128, /home/nader/systemshack/src/style.scss */
+/* line 122, /home/nader/systemshack/src/style.scss */
 #contactform [type="text"] {
   display: block;
   float: left;
 }
 
-/* line 131, /home/nader/systemshack/src/style.scss */
+/* line 125, /home/nader/systemshack/src/style.scss */
 #contactform [type="text"]:focus {
   box-shadow: 2px 2px 4px #000,-2px -2px 4px #000;
 }
 
-/* line 135, /home/nader/systemshack/src/style.scss */
+/* line 129, /home/nader/systemshack/src/style.scss */
 #contactform [type="email"] {
   display: block;
   float: left;
 }
 
-/* line 139, /home/nader/systemshack/src/style.scss */
+/* line 133, /home/nader/systemshack/src/style.scss */
 #contactform [type="email"]:focus {
   box-shadow: 2px 2px 4px #000,-2px -2px 4px #000;
 }
 
-/* line 143, /home/nader/systemshack/src/style.scss */
+/* line 137, /home/nader/systemshack/src/style.scss */
 #contactform [name="message"] {
   display: block;
   width: 100%;
   float: left;
 }
 
-/* line 147, /home/nader/systemshack/src/style.scss */
+/* line 141, /home/nader/systemshack/src/style.scss */
 #contactform [name="message"]:focus {
   box-shadow: 2px 2px 4px #000,-2px -2px 4px #000;
 }

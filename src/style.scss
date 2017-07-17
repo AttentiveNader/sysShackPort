@@ -45,24 +45,18 @@ background: #fff;
    background :#000000;
    height :100%;
    width :55px;
+   img{
+     max-height:40px;
+     max-width: 40px;
+   }
    div{
-     color:black;
-     
+     display: block;
+     max-width: 40px;
+     margin-top: 10px;
+     margin-left:5px;
+     color:#fff;
    }   
 }
-
-    .el-carousel__item h3 {
-  
-    margin: 0;
-  }
-
-  .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
-  }
-
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: #d3dce6;
-  }
   #caros{
     background: #fff;
    float:left;
