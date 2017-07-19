@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-default/index.css">
+    
+    <title>Nader Atef's resume</title>
+</head>
+
+<body>
+    <div id="app">
+        
+<div id="nav">
+<div style="float:left;"><h2> < Nader Atef >   </h2></div>
+<div style="float:right;"><h2> < /Nader Atef >  </h2></div>
+<el-row  type="flex" class="row-bg" justify="center">
+<div><a href="#about"><h3>About</h3></a></div>
+<div><a href="#Portfolio"><h3>Portfolio</h3></a></div>
+<div><a href="#contact"><h3>Contact</h3></a></div>
+</el-row>
+</div>
+
+<el-row type="flex" class="row-bg" justify="center">  
+  <div id="about">
+      <div id="aboutheader">
+   <h1>About me </h1>
+    <p>I'm a front end web developer </p>
+    <p>My name is Nader Atef from Egypt I like web development specially doing algorithms with javascript,</p> <p> I also like  using SCSS/Sass its just easier to use than normal CSS </p>
+    <h3>here are my  main skills</h3>
+    <div id="skills">
+        <span class="demonstration">HTML</span>
+         <el-progress  :text-inside="true" :show-text="true" :stroke-width="30" :percentage="90" status="">HTML</el-progress>
+        <span class="demonstration">Javascript/jQuery/VueJS</span>
+         <el-progress :text-inside="true"  :show-text="true"  :stroke-width="30" :percentage="100" status="success">Javascript/jQuery/VueJS</el-progress>
+        <span class="demonstration">CSS/SCSS</span>
+        <el-progress :text-inside="true" :show-text="true"  :stroke-width="30" :percentage="85" status="">CSS/SCSS/Sass</el-progress>
+          <span class="demonstration">Responsive design</span>
+        <el-progress :text-inside="true" :show-text="true"  :stroke-width="30" :percentage="86" status="">CSS/SCSS/Sass</el-progress> 
+    </div>
+      </div>
+  </div>
+    </el-row>
+    <div id="Portfolio">
+      
+    </div>
+    </div>
+</body>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="./script.js"></script>
+</html>

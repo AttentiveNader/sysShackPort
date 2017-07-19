@@ -12,7 +12,7 @@ new Vue({
           link:'https://systemshackblog.wordpress.com/',
           src:'./src/imgs/wordpress1600.png'
         }, {
-          link:'https://www.facebook.com/systemshackp/',
+          link:'https://www.linkedin.com/company-beta/13361187/',
           src:'./src/imgs/linkedin.ico'
         },
       ]

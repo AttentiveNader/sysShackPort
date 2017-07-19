@@ -1,0 +1,69 @@
+/* line 1, /home/nader/myResume/src/style.scss */
+* {
+  font-family: 'Fjalla One', sans-serif; }
+
+/* line 4, /home/nader/myResume/src/style.scss */
+body {
+  margin-top: 50px;
+  background: #000; }
+
+/* line 9, /home/nader/myResume/src/style.scss */
+a {
+  text-decoration: none; }
+
+/* line 13, /home/nader/myResume/src/style.scss */
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  z-index: 4;
+  background: #3dd0fc;
+  color: #d3ddff; }
+  /* line 23, /home/nader/myResume/src/style.scss */
+  #nav a {
+    color: #000; }
+  /* line 26, /home/nader/myResume/src/style.scss */
+  #nav div {
+    margin: 0  auto; }
+  @media screen and (max-width: 480px) {
+    /* line 32, /home/nader/myResume/src/style.scss */
+    #nav h1, #nav h2 {
+      display: none; } }
+  /* line 36, /home/nader/myResume/src/style.scss */
+  #nav h1, #nav h2 {
+    margin-top: 7px;
+    margin-left: 5px;
+    margin-right: 5px; }
+  /* line 43, /home/nader/myResume/src/style.scss */
+  #nav h4, #nav h3 {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 5px; }
+
+/* line 50, /home/nader/myResume/src/style.scss */
+#header {
+  height: 100%;
+  width: 100%;
+  background: url("./src/imgs/image.png") fixed; }
+
+/* line 55, /home/nader/myResume/src/style.scss */
+#skills {
+  margin-top: 20px; }
+
+/* line 58, /home/nader/myResume/src/style.scss */
+#about {
+  margin-top: 50px;
+  background: fixed;
+  overflow: hidden;
+  color: #d3ddff;
+  padding: 7px;
+  text-align: center; }
+  /* line 66, /home/nader/myResume/src/style.scss */
+  #about h1, #about p, #about h2, #about h3 {
+    margin: 0 auto;
+    max-width: 700px; }
+
+/*# sourceMappingURL=../style.map */
